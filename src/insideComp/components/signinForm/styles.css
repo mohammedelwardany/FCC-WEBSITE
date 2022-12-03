@@ -1,0 +1,11 @@
+#email{
+    background-color:"#ffe9d7";
+    border-width:0;
+    border-bottom-width:2;
+    border-color:"#a059b9";
+    
+}
+#email::placeholder{
+    font-family:"iceberg";
+    color:"#7b34c2"
+}
