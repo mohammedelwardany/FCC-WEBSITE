@@ -2,7 +2,7 @@
 
 function MainHeader(){
     return(
-        <div className="d-flex  py-4 align-items-center justify-content-between" style={{width:"55rem"}}>
+        <div className="d-flex  py-4 align-items-center justify-content-between" style={{width:"85rem"}}>
             <div>
             <p style={{fontFamily:"iceberg",color:"#A059B9"}} className={"shadow-lg h1"}><span className="text-light" >FCC </span>SYSTEMS</p>
             </div>

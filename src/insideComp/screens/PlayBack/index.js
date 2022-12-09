@@ -4,8 +4,11 @@
 import { CommendParams, CommendSellection, LeftContainer, RTable, MainHeader, RightContainer, SubHeader, TeleTerminal } from "../../components";
 import im from "../../../assets/login.png"
 import Button from 'react-bootstrap/Button';
+import Frame from 'react-frame-component';
+
 import Form from 'react-bootstrap/Form';
 import { BsStopFill ,BsFillPlayFill } from "react-icons/bs";
+import { ContainerSubsystem } from "../../components/commendsSubsystem";
 
 
 function PlayBack(){
@@ -24,6 +27,7 @@ function PlayBack(){
                         <div className="d-flex">
                             <div className="col">
                                 <CommendSellection />
+                                <ContainerSubsystem/>
 
                             </div>
                             <div className="col-4">
@@ -51,7 +55,7 @@ function PlayBack(){
                     <div className="d-flex align-items-center justify-content-center">
 
       <Form.Label className="text-dark my-2 mx-1 ms-3" style={{fontSize:14,fontFamily:"iceberg",fontWeight:"bold"}}>03:01</Form.Label>
-      <Form.Range className="mx-2 my-2"  />
+      <Form.Range className="mx-2 my-2" min={0} max={100} value={90} />
       <Button variant="danger" style={{height:25,width:25}}></Button>
       <BsFillPlayFill size={50} color={"black"}/>
 
