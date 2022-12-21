@@ -7,3 +7,4 @@ export * from "./commendSelection";
 export * from  "./CommendParams";
 export * from "./ArringableTable";
 export * from "./terminal"
+export * from "./commendsSubsystem"

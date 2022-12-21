@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-<PlayBack/>
+<CreatePlanScreen/>
       </header>
     </div>
   );
